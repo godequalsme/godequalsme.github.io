@@ -7,3 +7,8 @@ Should you have any questions about the content here or a desire to contact me p
 
 ### NEVILLE GODDARD
 Neville Goddard's teachings are the real deal for learning to control your life and understanding the mechanics behind reality and consciousness.  All his books are available as free PDFs online, check out [this site](https://imaginationandfaith.com/neville-goddard-free-pdf-epub-books/).
+
+### MY PERSONAL THEORY
+I recently created my own piece of manifestation theory based on Neville Goddard's teachings.  I hope this will help you advance your understanding of manifestation, simplify it and bring about more inner peace to your life.
+
+[Listen to it here.](/Noah's Manifestation Theory MP3 (small).mp3){:style="color:red;"}
