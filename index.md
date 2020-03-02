@@ -1,5 +1,4 @@
-# Welcome to God Equals Me!
-### P.S. This is not a narcissistic site, hehe.
+## Welcome!
 
 My name is Noah.  This is my personal site for sharing thoughts regarding reality and manifestation.  I have for many years been around the weirdest places of the internet when it comes to everything from brain training to philosophy and meditation.  
 
