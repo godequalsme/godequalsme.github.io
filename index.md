@@ -11,4 +11,15 @@ Neville Goddard's teachings are the real deal for learning to control your life 
 ### MY PERSONAL THEORY
 I recently created my own piece of manifestation theory based on Neville Goddard's teachings.  I hope this will help you advance your understanding of manifestation, simplify it and bring about more inner peace to your life.
 
-[Listen to it here.](/noah_theory.mp3){:style="box-shadow: 0px 10px 14px -7px #276873; background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); background-color:#599bb3; border-radius:8px; display:inline-block; cursor:pointer; color:#ffffff; font-family:Arial; font-size:20px; font-weight:bold; padding:13px 32px; text-decoration:none; text-shadow:0px 1px 0px #3d768a;"}
+[Listen to it here.](/noah_theory.mp3){:style="box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;"}
