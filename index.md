@@ -1,6 +1,6 @@
 # Welcome to God Equals Me!
 ### P.S. This is not a narcissistic site, hehe.
-![Me, Noah](https://raw.githubusercontent.com/godequalsme/godequalsme.github.io/master/82866833_634219077323845_68143.jpg){:style="float: right;margin-left: 20px;margin-top: 7px;"}
+![Me, Noah](https://raw.githubusercontent.com/godequalsme/godequalsme.github.io/master/82866833_634219077323845_68143.jpg){:style="margin-left: 20px;margin-top: 7px;"}
 
 My name is Noah.  This is my personal site for sharing thoughts regarding reality and manifestation.  I have for many years been around the weirdest places of the internet when it comes to everything from brain training to philosophy and meditation.  
 
