@@ -36,3 +36,7 @@ I recently created my own piece of manifestation theory based on Neville Goddard
 	padding:9px 23px;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #7a2a1d;"}
+
+
+### WHY DOES MUSIC FEEL GOOD?
+I love music.  I can listen to a song and become totally euphoric.  I would say music and imaginaning are two of my favorite activities in life.  Both bring about wonderful emotions and feelings!  The reason music feels so good to listen to is because it is literally a person's imagination put into sensory information (sound waves).  When you listen to these sound waves, you are experiencing the imagination of another person.  It is quite incredible.  Remember though, that there is not really any such thing as "another person."  Everyone else is a product of your own wonderful imagination--consciousness.  You're creating everything.  Enjoy!
