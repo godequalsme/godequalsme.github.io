@@ -7,8 +7,4 @@ My name is Noah.  This is my personal site for sharing thoughts regarding realit
 Should you have any questions about the content here or a desire to contact me personally, please do so at noah@godequals.me.  I will be happy to hear from you.
 
 
-
-
-
-
-.
+## The man! Neville Goddard
