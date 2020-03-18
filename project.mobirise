@@ -459,7 +459,7 @@
               }
             },
             ".mbr-text": {
-              "color": "#000000"
+              "color": "#a0a0a0"
             }
           },
           "_name": "content7",
@@ -813,11 +813,11 @@
           "_name": "content19",
           "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3f485d\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    THE POWER OF <span style=\"font-weight: normal;\"><i>REFLECTING</i></span> TO UNDERSTAND NEVILLE'S TEACHINGS</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rTC7EDkYny",
+          "_anchor": "content19-w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content19-w"
+          "_params": {}
         },
         {
           "alias": false,
@@ -829,11 +829,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"page2.html\" data-app-placeholder=\"Type Text\">&lt;- BACK</a></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rTC7EDTiJE",
+          "_anchor": "content5-x",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-x"
+          "_params": {}
         },
         {
           "alias": false,
@@ -845,11 +845,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>\n            The fact that you are studying Neville Goddard means that you have within you the answers to every question you could possibly ask about consciousness, reality, the universe, your purpose, etc. This is the purest knowledge--the knowledge of all knowledge--it is truly escaping the Matrix (that you have created, perhaps out of fear).</div>\n    </div>\n</section>",
           "_cid": "rTC7EEjZsS",
+          "_anchor": "content4-y",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-y"
+          "_params": {}
         },
         {
           "alias": false,
@@ -892,11 +892,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"content7 mbr-section\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n            <option value=\"romb\" selected>Rhombus</option>\n\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><span style=\"letter-spacing: 0.5px;\">Please sit down in your sofa or any comfortable position and gaze at an object. </span><span style=\"letter-spacing: 0.5px;\">Do not stare, just gaze, fix your eyes’ position. &nbsp;</span></div><div><span style=\"letter-spacing: 0.5px;\">Become mindful about your surroundings, \n&nbsp;</span><span style=\"letter-spacing: 0.5px;\">your hearing, your vision/eyesight, your sense of smell, your sense of touch.&nbsp;</span></div><div><span style=\"letter-spacing: 0.5px;\">Become mindful of all of these and focus on holding your breath. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">Holding your breath helps with calming your nervous system and lowers your pulse. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">Holding your breath is a great meditation technique, and the best way that I have found to easily relax and tune inwards.\n<br><br></span></div><div><span style=\"letter-spacing: 0.5px;\">Start asking yourself questions. Ask yourself, “what am I seeing?”. Answer your question. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">Ask a deeper question, paraphrase it to a deeper level, “why am I seeing what I am seeing?”. Answer it. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">Try to answer it based on what you have learnt from Neville. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">An example of an answer could be, \n</span></div><div><span style=\"letter-spacing: 0.5px;\">“I am seeing what I am seeing because I believe it. My beliefs have determined my destiny so far, and this is the result. I am God, because I created this. I have the power to change it.”\n</span></div><div><span style=\"letter-spacing: 0.5px;\">Ask yourself another question. Your answers or questions do not have to be perfect. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">This exercise is simply and only meant to help you realize how truly insightful you can be. \n<br><br></span></div><div><span style=\"letter-spacing: 0.5px;\">You do not need to read any advice on the web or any books (other than Neville Goddard’s) because all insight is available to you within. \n</span></div><div><span style=\"letter-spacing: 0.5px;\">The key to understanding, is to ask yourself the question, narrow the question down to the purest question you can make—then the answer is obvious within you.\n</span></div><div><span style=\"letter-spacing: 0.5px;\">Please do the above every day and you will soon become a Neville master!\n</span></div><div><span style=\"letter-spacing: 0.5px;\">And with it you will find fulfillment, joy, inner peace, and better control of your life.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rTC7EEWur4",
+          "_anchor": "content7-z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content7-z"
+          "_params": {}
         },
         {
           "alias": false,
@@ -916,11 +916,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3f485d\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                No copyright, lol. 2020.</p>\n        </div>\n    </div>\n</section>",
           "_cid": "rTC7EFEjw4",
+          "_anchor": "footer1-10",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-10"
+          "_params": {}
         }
       ]
     }
