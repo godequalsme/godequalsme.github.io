@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-18_1434",
-    "currentPage": "page2.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -243,7 +243,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>\n            The past weeks have been different to say the last. The Coronavirus has spread throughout the world causing a wave of panick and worry. With Neville Goddard's teachings by your side, you can find peace during tumulunt times like these. My perspective is as follows.</div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>\n            The past weeks have been different to say the last. The Coronavirus has spread throughout the world causing a wave of panick and worry. With Neville Goddard's teachings by your side, you can find peace during tumult times like these. My perspective is as follows.</div>\n    </div>\n</section>",
           "_cid": "rTBoTr7tz2",
           "_protectedParams": [],
           "_global": false,
