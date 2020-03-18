@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-18_1434",
-    "currentPage": "article-method.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -63,7 +63,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Home | God Equals Me",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -703,7 +703,7 @@
     },
     "article-reflection.html": {
       "settings": {
-        "title": "The Power of Reflection | God Equals Me",
+        "title": "The Power of Reflecting | God Equals Me",
         "order": 4,
         "meta_descr": ""
       },
