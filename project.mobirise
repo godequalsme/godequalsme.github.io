@@ -47,7 +47,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 44,
+    "uniqCompNum": 45,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/noun-god-the-father-11736021-128x128.png",
@@ -70,6 +70,22 @@
         "html_before": ""
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content16",
+          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold mbr-py-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text><i><a href=\"https://gumroad.com/neurodriver\" target=\"_blank\" class=\"text-white\">Audio technology to reach the state akin to sleep &gt;&nbsp;</a><i><a href=\"https://gumroad.com/neurodriver\" target=\"_blank\" style=\"font-weight: bold;\"><i>Neurodriver</i></a><br><span style=\"font-weight: normal;\">Use </span>cjwk3hc<span style=\"font-weight: normal;\"> at checkout for $5 off!</span></i></i></div>\n    </div>\n</section>",
+          "_cid": "rVSsAMeBiS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content16-18"
+        },
         {
           "alias": false,
           "_styles": {
