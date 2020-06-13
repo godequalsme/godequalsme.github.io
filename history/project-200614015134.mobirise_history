@@ -57,7 +57,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -70,6 +72,22 @@
         "html_before": ""
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content16",
+          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold mbr-py-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text><i><a href=\"https://audiotation.com\" target=\"_blank\" class=\"text-white\">My other site, audio technology for meditation &gt;&nbsp;</a><a href=\"https://audiotation.com\" target=\"_blank\" class=\"text-white\"><b><i>Audiotation™</i></b></a><i><br></i></i></div>\n    </div>\n</section>",
+          "_cid": "rVSsAMeBiS",
+          "_anchor": "content16-18",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -107,7 +125,7 @@
             }
           },
           "_name": "content10",
-          "_customHTML": "<section class=\"content10 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text mbr-fonts-style mbr-col-sm-12 mbr-col-md-8\" mbr-theme-style=\"display-4\" data-multiline mbr-article><h6><b>My name is Noah. </b>This is my personal website for sharing my thoughts on reality and manifestation. I study the works of <b>Neville Goddard.</b>&nbsp;I am very grateful to my friends <b>Erin &amp; Ainsley</b>&nbsp;who introduced me to this name in 2019. Since then I've kept on studying his work and it has dramatically transformed my life. I hope this site may be an inspiration to you and that you can find some helpful advice. Perhaps you want to go the same path as me--if so, here are all the resources you need to get started. <a href=\"https://paypal.me/noahyg\" target=\"_blank\">DONATIONS</a> are appreciated.</h6></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content10 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text mbr-fonts-style mbr-col-sm-12 mbr-col-md-8\" mbr-theme-style=\"display-4\" data-multiline mbr-article><h6><b>My name is Noah. </b>This is my personal website for sharing my thoughts on reality and manifestation. I am a student of Neville Goddard, who I consider my hero. I am very grateful to my friends <b>Erin &amp; Ainsley</b>&nbsp;who introduced me to this name in 2019. Since then I've kept on studying his work and it has dramatically transformed my life. I hope this site may be an inspiration to you and that you can find some helpful advice. Perhaps you want to go the same path as me--if so, here are all the resources you need to get started. <a href=\"https://paypal.me/noahyg\" target=\"_blank\">DONATIONS</a> are appreciated..</h6></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rTBgNauzn5",
           "_anchor": "content10-8",
           "_protectedParams": [],
@@ -449,6 +467,58 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rXtdrXGbwK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "li when (@stylizedCounters)": {
+                "list-style": "none",
+                "position": "relative",
+                "&:before": {
+                  "position": "absolute",
+                  "left": "-55px",
+                  "content": "''",
+                  "display": "inline-block",
+                  "margin": "10px 15px",
+                  "line-height": "20px",
+                  "width": "10px",
+                  "height": "10px",
+                  "& when (@countersType = 'circle')": {
+                    "border": "1px solid @counterColor",
+                    "color": "@counterColor"
+                  },
+                  "& when not (@countersType = 'circle')": {
+                    "color": "contrast(@counterColor)",
+                    "background": "@counterColor"
+                  },
+                  "& when not (@countersType = 'square') and not (@countersType = 'romb')": {
+                    "border-radius": "50%"
+                  },
+                  "& when (@countersType = 'romb')": {
+                    "-webkit-transform": "rotate(45deg)",
+                    "transform": "rotate(45deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"content7 mbr-section\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n            <option value=\"romb\" selected>Rhombus</option>\n\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li class=\"mbr-pb-2\"><a href=\"article-remedies.html\" class=\"text-black\">THE POWER OF IMAGINARY REMEDIES</a><br></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content7-12",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rTC991gyLq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1040,6 +1110,139 @@
         }
       ]
     },
+    "article-remedies.html": {
+      "settings": {
+        "title": "The Power of Imaginary Remedies | God Equals Me",
+        "order": 6,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/yousef-espanioly-da-tplygtow-unsplash-2000x1330.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#03657c\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    THE POWER OF IMAGINARY REMEDIES</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\">\n                    <i>Shape your future web project with sharp design and refine coded functions.</i>\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTO7nMaJpT",
+          "_anchor": "content19-13",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"articles.html\" data-app-placeholder=\"Type Text\">&lt;- BACK</a></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTO7nMI8Rs",
+          "_anchor": "content5-14",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text>\n            Throughout all of history, people have had fantasies and imaginations that we today disregard as \"myth\" and \"fairytale\". These fantasies, stories and myths may well be examples of the creative usage of imagination to transform consciousness.</div>\n    </div>\n</section>",
+          "_cid": "rTO7nNdYGv",
+          "_anchor": "content4-15",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "li when (@stylizedCounters)": {
+                "list-style": "none",
+                "position": "relative",
+                "&:before": {
+                  "position": "absolute",
+                  "left": "-55px",
+                  "content": "''",
+                  "display": "inline-block",
+                  "margin": "10px 15px",
+                  "line-height": "20px",
+                  "width": "10px",
+                  "height": "10px",
+                  "& when (@countersType = 'circle')": {
+                    "border": "1px solid @counterColor",
+                    "color": "@counterColor"
+                  },
+                  "& when not (@countersType = 'circle')": {
+                    "color": "contrast(@counterColor)",
+                    "background": "@counterColor"
+                  },
+                  "& when not (@countersType = 'square') and not (@countersType = 'romb')": {
+                    "border-radius": "50%"
+                  },
+                  "& when (@countersType = 'romb')": {
+                    "-webkit-transform": "rotate(45deg)",
+                    "transform": "rotate(45deg)"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"content7 mbr-section\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n            <option value=\"romb\" selected>Rhombus</option>\n\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text counter-container mbr-fonts-style mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><span style=\"letter-spacing: 0.5px;\">Imagination is so powerful.  Everything you see has been believed and imagined.  Imagination creates beliefs, new beliefs that are more desirable at this moment in time.  But please, see how consciousness itself is a belief system.  Life itself is indeed belief, because if you believe you are sick, you will die.  All disease is imagined; all disease is disease because you believe it--this is one fundamental aspect of Neville way of thinking. <b>Consciousness itself is a belief system.</b> This means that you are in full control of everything, because it's you believing the content of your consciousness, not anybody else--there's nobody but you, all that you see you see because you believe it to be.  There's also plenty of illusions in the content of the consciousness; the dream that we are in, what we call Earth, what we call the universe, what we call reality.  These illusions are what I call <i>the Matrix</i>--the Matrix of beliefs that you have created hindering yourself from seeing the truth.  <i>Escaping the Matrix</i> means studying Neville  Goddard and applying the principles wholeheartedly in your \"life\"; actually, in your consciousness.  By applying the principles that Neville Goddard taught us, we are directly manipulating the content of our consciousness.  <b>We are accessing our soul and changing it, if you will.</b>  And when you access your soul by imagining, anything is possible.  You can change even the most fundamental aspects of your consciousness; directly change the dream you are in and manifest your dream life.  You can also experiment with time.  Time is an illusion, because there is only <i>now</i>, there is only <i>one now, one ever-changing now</i>. Your consciousness is all there is and your consciousness is eternal.  Man, you are eternal!  Grasp this.  It's not a small realization to make, and fully doing so is difficult in the state of Matrix that we're currently in.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\">You believe that you age, hence you age.  You have always believed age.  Age is a belief, one of many in the belief system you call reality, your very consciousness.  <b>Age is an imagined process.</b>  It is a result of the linear time thinking we have as humans.  <b>If we did not think time was linear, age could not exist.</b>  By studying Neville Goddard and his understanding of consciousness, you will start to realize that time is non-linear; because there is only a now. There is one ever changing energy; one energy, one consciousness, one soul; this is YOU. <b>I AM that I AM. </b> There is nothing else but <b>YOU, WHAT YOU ARE.</b>  <b>YOU ARE that YOU ARE,</b> and this article is a manifestation of your wonderful imagination.  This article was not written by a separate consciousness; rather, it was written by you, it was written subconsciously by you; manifested by you, without any conscious effort.  This itself is a demonstration, a practical one, of the power of your consciousness and imagination.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\"><b>Disease</b> is illusion.  For some reason, a part of our Matrix as beliefs we have as humans, is that we will at some point get sick.  We got sick as kids, so it is a natural and widely accepted phenomenon.  <b>It is deeply imprinted into our consciousness; our belief system--our Matrix of beliefs.</b>  There is an active ongoing imagination force that's manifesting disease in your consciousness, your reality.  You can either stop this active force of manifestation you are believing (because belief is the <i>manifesting force</i>, the dictionaries should define 'believing' as: the act of manifesting; and the word 'belief' as: the power that manifests), or you can start to actively imagine and believe a contradictory force: you can start to imagine health.  Neville Goddard said, \"Every feeling makes a subconscious impression and, unless it is counteracted by a more powerful feeling of an opposite nature, must be expressed.\"\n</span></div><div><span style=\"letter-spacing: 0.5px;\">So start counteracting the Matrix of age and disease.  For instance, start believing that...\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\"><b>...SUGAR HEALS CANCER\n</b></span></div><div><span style=\"letter-spacing: 0.5px;\"><b><br></b></span></div><div><span style=\"letter-spacing: 0.5px;\">Because if you believe it does, it does.  Mainstream science, the media--these are all part of the Matrix of limited beliefs.  Stop absorbing that info.  (Someone once said, \"ignorance is bliss.\")  Stop watching news, stop listening to science.  It's <b>fake news.</b>  The <b>real news, the facts are within.</b>  YOU CREATE THE FACTS!  You decide the facts.  No more needs to be said.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\">This means that you can also create imaginary remedies that counteract the active imagination and belief of disease and age.   You can turn within and actively imagine health every day.  You can imagine health for yourself and your loved ones.  You can start to believe that the very act of eating sugar protects you from, and heals, cancer.  If you believe and imagine it does, it does.  <b>In these Corona times, create an imaginary remedy to protect yourself.</b>  One good example of imaginary remedies is the usage of <i>sigils</i> in the world of sorcery and magick.  I've been deeply involved in the community of sorcery and magick online, and have realized that it is fully belief based (albeit fully real, because it is believed to be).  In the world of magick, you can create a sigil on a piece of paper that you charge with your mind's intention to create a certain outcome, manifestation, change in the consciousness.  This is one way to utilize the power of belief to change yourself and transform your consciousness.  Create a symbol on a piece of paper, carry it and know that its (imagined) energy is manifesting your desired outcome, change in the consciousness.  It works, because you believe it does.  This is the most powerful vaccine on Earth, if you believe it.  This is what I do to protect myself from the Coronavirus, well, one of the ways.  It is also important to go within and imagine health, because within you you have a source of health, vitality and healing.  This is one method to utilize this source of health and vitality.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\">Be creative!  There's literally an infinite amount of ways to use the power of imagination to heal and protect.  If you want, study reiki &amp; magick.  But remember to not lose your Neville perspective as you go deeper into this rabbit hole.  Believe me, I've been (and still am) in it; but I never forget to remind myself that what truly creates the transformation is the imagination and belief in the tools.  <b>If you believe something does a certain thing, it will. </b> Magick is the art of being creative with imagination and creating effective beliefs; brainwashing yourself to create a change in the consciousness.  It's fantastic, and real--but fully based on belief.  Hence, you don't need to study magick.  You can come up with your own creative usage of imagination to create change in the consciousness.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\">With all this being said, I want to conclude the article with a few perspectives on eternal life.  As we know, age is an illusion that we actively imagine and believe as a result of \"linear time\", which too is a limited Matrix-type of belief that we've created, perhaps out of fear.  Since time is in fact non-linear, and age illusionary (imagined), what's preventing us from living eternally?  Nothing, in my opinion.  You can either stop imagining age, but most humans will find this strugglesome.  My suggestion is that you start by creating an imaginary remedy that you know stops aging.  Create several!  Or create one that you fully hold onto.  Hold onto these remedies and never forget that they maintain eternal life for you.  Also, go within and imagine health every day.  You have within you <i>the source of all health on the planet.</i>  <i>All health in the universe comes from within you.</i>  It is only a matter of utilizing this health by realizing its existence and power.\n</span></div><div><span style=\"letter-spacing: 0.5px;\"><br></span></div><div><span style=\"letter-spacing: 0.5px;\">Good luck!  And have fun.\n</span></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTO7nNE5BG",
+          "_anchor": "content7-16",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">No © 2020</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTO7nOezQb",
+          "_anchor": "footer1-17",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
     "article-sats.html": {
       "settings": {
         "title": "SATS | God Equals Me",
@@ -1210,7 +1413,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/charles-deluvio-p-dij5ljkc-unsplash-1462x1725.jpg\" layout=\"responsive\" width=\"731.423768115942\" height=\"863\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/charles-deluvio-p-dij5ljkc-unsplash-1462x1725.jpg\" alt=\"Mobirise\" title>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>Sometimes a bridge of events that lead up to your desire may seem contradictory; hence it may seem to oppose what you are trying to accomplish. In these moments it is important not to lose faith in your imagination. A recent example is I felt my phone was too old and I needed a new phone, so I tried to manifest it. I had the money but was hesitant to spend it on a phone just yet; however, I was actively living in the desire fulfilled of having this new phone. On the bridge to getting a new phone, my current one broke. Whereas this could have caused a panic attack, I chose to buy a new phone instead. It arrived today. Desire fulfilled. Whatever it takes to get there, imagination never ceases to serve.<br>\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/charles-deluvio-_p-dij5ljkc-unsplash-1462x1725.jpg\" layout=\"responsive\" width=\"731.423768115942\" height=\"863\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/charles-deluvio-_p-dij5ljkc-unsplash-1462x1725.jpg\" alt=\"Mobirise\" title>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-2': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>Sometimes a bridge of events that lead up to your desire may seem contradictory; hence it may seem to oppose what you are trying to accomplish. In these moments it is important not to lose faith in your imagination. A recent example is I felt my phone was too old and I needed a new phone, so I tried to manifest it. I had the money but was hesitant to spend it on a phone just yet; however, I was actively living in the desire fulfilled of having this new phone. On the bridge to getting a new phone, my current one broke. Whereas this could have caused a panic attack, I chose to buy a new phone instead. It arrived today. Desire fulfilled. Whatever it takes to get there, imagination never ceases to serve.<br>\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rXtf8wQsEv",
           "_anchor": "image2-1j",
           "_protectedParams": [],
